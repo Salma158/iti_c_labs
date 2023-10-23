@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1697719536 source:c:\users\dell\desktop\os -intake44\magic_box\main.c
+	<stdio.h>
+	<windows.h>
+	<time.h>
+
