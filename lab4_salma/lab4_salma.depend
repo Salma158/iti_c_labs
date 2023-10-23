@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1698098852 source:c:\users\dell\desktop\os -intake44\lab4_salma\main.c
+	<stdio.h>
+	<stdlib.h>
+	"salma.h"
+
+1698095468 c:\users\dell\desktop\os -intake44\lab4_salma\salma.h
+
+1698100796 source:c:\users\dell\desktop\os -intake44\lab4_salma\functions.c
+	<stdio.h>
+	<stdlib.h>
+	"salma.h"
+
