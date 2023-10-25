@@ -29,9 +29,9 @@ void swap_way2(int *x, int *y)
 {
     printf("before");
     printf (" x is %d and y is %d\n",*x,*y);
-    int sum = *x + *y;
-    *x = sum - *x;
-    *y = sum - *x;
+    *x = *x + *y;
+    *y = *x - *y;
+    *x = *x - *y;
     printf("after");
     printf (" x is %d and y is %d\n",*x,*y);
 }
@@ -39,9 +39,9 @@ void swap_way2(int *x, int *y)
 void swap_way3(int *x, int *y){
     printf("before");
     printf (" x is %d and y is %d\n",*x,*y);
-    int sum = *x * *y;
-    *x = sum / *x;
-    *y = sum / *x;
+    *x = *x * *y;
+    *y = *x / *y;
+    *x = *x / *y;
     printf("after");
     printf (" x is %d and y is %d\n",*x,*y);
 }
